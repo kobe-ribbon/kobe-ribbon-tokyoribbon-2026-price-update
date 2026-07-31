@@ -1,0 +1,16 @@
+
+# --- 共通ブロック (IT セキュリティ監査 P2-2 / 2026-07-31) ---
+# 正本: ~/projects/it-security-audit/assets/templates/gitignore-template
+*.pem
+*.key
+*.p12
+*.pfx
+*.db
+*.sqlite
+*.sqlite3
+sessions/
+*.jsonl
+__pycache__/
+*.pyc
+.venv/
+venv/
