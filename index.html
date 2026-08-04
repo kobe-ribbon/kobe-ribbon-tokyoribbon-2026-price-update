@@ -228,7 +228,7 @@
 
 <div class="timeline">
 
-  <div class="card" data-effective-date="2026-08-01">
+  <div class="card" id="foyer" data-effective-date="2026-08-01">
     <div class="card-head">
       <div class="card-supplier">ホワイエ社 <span class="en">FOYER</span></div>
       <div class="card-date"><span class="label">改定日</span>2026年8月1日</div>
@@ -237,7 +237,7 @@
     <div class="card-actions"><a class="pdf-btn" href="pdfs/foyer_20260801_pricelist.pdf" target="_blank" rel="noopener">対象品番一覧（PDF）</a></div>
   </div>
 
-  <div class="card" data-effective-date="2026-08-21">
+  <div class="card" id="tokyoribbon" data-effective-date="2026-08-21">
     <div class="card-head">
       <div class="card-supplier">東京リボン株式会社 <span class="en">TOKYO RIBBON</span></div>
       <div class="card-date"><span class="label">改定日</span>2026年8月21日</div>
@@ -249,7 +249,7 @@
     </div>
   </div>
 
-  <div class="card" data-effective-date="2026-08-31">
+  <div class="card" id="apel" data-effective-date="2026-08-31">
     <div class="card-head">
       <div class="card-supplier">アペル <span class="en">AMOROSA</span></div>
       <div class="card-date"><span class="label">改定日</span>2026年8月31日</div>
@@ -258,7 +258,7 @@
     <div class="card-actions"><a class="pdf-btn" href="pdfs/amorosa_20260831_pricelist.pdf" target="_blank" rel="noopener">新価格表（PDF）</a></div>
   </div>
 
-  <div class="card" data-effective-date="2026-09-01">
+  <div class="card" id="ashgrey" data-effective-date="2026-09-01">
     <div class="card-head">
       <div class="card-supplier">アッシュグレイ社 <span class="en">ASH GREY</span></div>
       <div class="card-date"><span class="label">改定日</span>2026年9月1日</div>
@@ -267,7 +267,7 @@
     <div class="card-actions"><a class="pdf-btn" href="pdfs/ashgrey_20260901_pricelist.pdf" target="_blank" rel="noopener">新価格表（PDF）</a></div>
   </div>
 
-  <div class="card" data-effective-date="2026-10-01">
+  <div class="card" id="aoyama" data-effective-date="2026-10-01">
     <div class="card-head">
       <div class="card-supplier">青山リボン社 <span class="en">AOYAMA RIBBON</span></div>
       <div class="card-date"><span class="label">改定日</span>2026年10月1日</div>
@@ -276,7 +276,10 @@
     <div class="card-actions"><a class="pdf-btn" href="pdfs/aoyama_20261001_pricelist.pdf" target="_blank" rel="noopener">新上代表（PDF）</a></div>
   </div>
 
-  <div class="card" data-effective-date="2026-10-15">
+  <!-- data-effective-date=2026-10-15 は意図的なバッファ。実施日は「2026年10月出荷予定分より」
+       で流動的（schedule 上は 2026-10-01頃）なため、月半ばまで「未改定」表示を維持する
+       （ユーザー確認済み 2026-08-05） -->
+  <div class="card" id="foyer-oct" data-effective-date="2026-10-15">
     <div class="card-head">
       <div class="card-supplier">ホワイエ社（追加改定） <span class="en">FOYER</span></div>
       <div class="card-date"><span class="label">改定日</span>2026年10月出荷予定分より</div>
@@ -285,7 +288,7 @@
     <div class="card-actions"><a class="pdf-btn" href="pdfs/foyer_20261001_pricelist.pdf" target="_blank" rel="noopener">対象品番一覧（PDF）</a></div>
   </div>
 
-  <div class="card" data-effective-date="2026-11-01">
+  <div class="card" id="sakagen" data-effective-date="2026-11-01">
     <div class="card-head">
       <div class="card-supplier">坂源社 <span class="en">SAKAGEN</span></div>
       <div class="card-date"><span class="label">改定日</span>2026年11月1日</div>
